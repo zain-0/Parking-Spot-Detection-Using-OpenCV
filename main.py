@@ -20,9 +20,6 @@ if not cap.isOpened():
     print("Error: Unable to open video source")
     exit()
 
-
-
-
 # Do something with the video capture, like reading frames
 while True:
     ret, frame = cap.read()
@@ -56,3 +53,4 @@ while True:
 
 # Release the video capture resources
 cap.release()
+cap.DestroyAllWindows()
