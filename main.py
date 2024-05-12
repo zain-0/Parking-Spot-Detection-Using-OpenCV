@@ -1,9 +1,11 @@
 import cv2
 import numpy as np
 from util import get_parking_spots_bboxes, empty_or_not
+
 video_path='parking_crop.mp4'
 mask='mask_crop.png'
 mask = cv2.imread(mask,0)
+
 connected_components = cv2.connectedComponentsWithStats(mask,4,cv2.CV_32S)
 spots = get_parking_spots_bboxes(connected_components)
 frame_nmr=0
