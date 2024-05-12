@@ -14,10 +14,14 @@ spots_status = [None for j in spots]
 # Open the video capture device or file
 cap = cv2.VideoCapture(video_path)
 
+
 # Check if the video capture is open
 if not cap.isOpened():
     print("Error: Unable to open video source")
     exit()
+
+
+
 
 # Do something with the video capture, like reading frames
 while True:
