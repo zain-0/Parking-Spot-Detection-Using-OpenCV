@@ -9,6 +9,10 @@ This project is a parking spot monitoring system developed using OpenCV in Pytho
 - Provides real-time visualization of parking spot status
 - Calculates and displays the number of available parking spots
 
+## Preview 
+![image](https://github.com/zain-0/Parking-Spot-Detection-Using-OpenCV/assets/144730764/e493c1a1-0338-4443-bac0-af6991d9837f)
+
+
 ## Prerequisites
 
 - Python 3.7 or later
