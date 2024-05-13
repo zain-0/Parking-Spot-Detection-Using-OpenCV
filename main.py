@@ -78,4 +78,4 @@ while True:
 
 # Release the video capture resources
 cap.release()
-cap.DestroyAllWindows()
+cv2.DestroyAllWindows()
