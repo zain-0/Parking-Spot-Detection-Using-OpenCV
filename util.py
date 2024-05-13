@@ -27,3 +27,6 @@ def empty_or_not(spot_bgr):
     return True
   else:
     return False
+  
+def calc_diff(im1,im2):
+  return np.abs(np.mean(im1) - np.mean(im2))
